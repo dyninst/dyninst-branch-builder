@@ -5,7 +5,7 @@ We use [this base container](https://github.com/dyninst/dyninst/pkgs/container/d
 and we just need to build again. You can specify the branch of dyninst to use as follows:
 
 ```bash
-$ docker build --build-arg DYNINST_BRANCH=kupsch/parse-callsites-preview -t ghcr.io/dyninst/dyninst-branch-builder:callsites .
+$ docker build --build-arg DYNINST_BRANCH=kupsch/parse-callsites-preview-2 -t ghcr.io/dyninst/dyninst-branch-builder:callsites-2 .
 ```
 
 The above would build Jim's branch for callsites, which I need in some reproducible way

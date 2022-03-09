@@ -16,7 +16,7 @@ RUN rm -rf /code && \
     cd /code && \
 
     # Be consistent in branch name so we don't need to update below
-    git checkout -b dev kupsch/parse-callsites-preview
+    git checkout -b dev ${DYNINST_BRANCH}
 
 # Previous WORKDIR, just to be careful - reinstall dyninst if needed
 # Thenbuild and run the test suite
